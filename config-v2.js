@@ -1,6 +1,6 @@
-const DATABASE = "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" // මෙතනට mongodb,mysql,postgresql or github token එකක් enter කරන්න මේ "" දෙක මැදට. (Enter a mongodb,mysql,postgresql or github token here between these two "".)
-const BOT_NUMBER = "94770612011 // ඔයාගෙ whatsapp number එක. (your whatsapp number)
-const SESSION_ID = "PRABATH-MD~gnmZIK2A2fJu7vP" // ඔයාගෙ session id එක මේකෙන් ගන්න - https://prabathmd-official.vercel.app
+const DATABASE = process.env.DATABASE || ""
+const BOT_NUMBER = process.env.BOT_NUMBER || "94770612011"
+const SESSION_ID = process.env.SESSION_ID || "PRABATH-MD~gnmZIK2A2fJu7vP"
 
 
 // ඉහත ඒව "" මැදට එකතු කරන්න වෙනත් කිසිම දෙයක් වෙනස් නොකරන්න ❌. (Add "" in the middle of the above and ❌ don't change anything else.)
