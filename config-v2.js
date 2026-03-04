@@ -1,4 +1,4 @@
-const DATABASE = process.env.DATABASE || "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"
+const DATABASE = process.env.DATABASE || "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"
 const BOT_NUMBER = process.env.BOT_NUMBER || "94770612011"
 const SESSION_ID = process.env.SESSION_ID || "PRABATH-MD~gnmZIK2A2fJu7vP"
 
